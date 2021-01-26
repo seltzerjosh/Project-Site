@@ -4,7 +4,7 @@
       "id": 1,
       "project_name": "Interactive Form",
       "description": "An interactive form for registering conference attendees.",
-      "technologies": "JavaScript, HTML, CSS",
+      "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://www.seltzerjosh.io/intearctive-form/",
       "github_link": "https://github.com/seltzerjosh/intearctive-form",
       "image_urls": [
@@ -16,7 +16,7 @@
       "id": 2,
       "project_name": "Personal Directory",
       "description": "A sample directory",
-      "technologies": "JavaScript, HTML, CSS",
+      "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://www.seltzerjosh.io/personnel-directory/",
       "github_link": "https://github.com/seltzerjosh/personnel-directory",
       "image_urls": [
@@ -28,7 +28,7 @@
       "id": 3,
       "project_name": "Phrase Hunter",
       "description": "https://github.com/seltzerjosh/Hangman-App",
-      "technologies": "JavaScript, HTML, CSS",
+      "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://www.seltzerjosh.io/Hangman-App/",
       "github_link": "https://github.com/seltzerjosh/Hangman-App",
       "image_urls": [
@@ -40,7 +40,7 @@
       "id": 4,
       "project_name": "Quote Site",
       "description": "A random quote generator.",
-      "technologies": "JavaScript, HTML, CSS",
+      "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://www.seltzerjosh.io/th-js-project-01-RQG",
       "github_link": "https://github.com/seltzerjosh/th-js-project-01-RQG",
       "image_urls": [
@@ -52,7 +52,7 @@
       "id": 5,
       "project_name": "RSVP Site",
       "description": "",
-      "technologies": "JavaScript, HTML, CSS",
+      "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://www.seltzerjosh.io/rsvp-app/",
       "github_link": "https://github.com/seltzerjosh/rsvp-app",
       "image_urls": [
