@@ -1,15 +1,17 @@
 extends layout.pug
+//- show project specific info
 block content
   article.portfolio-intro
     h1 Portfolio
     p Web projects
   article.portfolio-project-thumbs
     .projects-box.box.grid
-    .cell
-    each  project in projectList
-        a(href=`/project/${project.id}`)
-            each pic in project.image_urls
-                - regex = /.+main.+/;
-                if regex.test(pic)
-                    img.thumbnail(src=`/static/${pic}`, alt=`${project.project_name}`)
-            h5 #{project.project_name}
+        //loop through projects and display all relevant data (name, image, img-alt-text, link)
+        each  project in projectList
+            .cell
+                a(href=`/project/${project.id}`)
+                    each pic in project.image_urls
+                        - regex = /.+main.+/;
+                        if regex.test(pic)
+                            img.thumbnail(src=`/static/${pic}`, alt=`${project.project_name}`)
+                    h5 #{project.project_name}
