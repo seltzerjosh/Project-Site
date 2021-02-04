@@ -18,13 +18,15 @@ app.use((req, res, next) => {
 });
 
 //global error handler
-app.use((err, req, res, next)=>{
+app.use((err, req, res, next) => {
     res.locals.error = err;
     res.status(err.status);
     res.render('error', err);
 });
 
 //open port
-app.listen(3000, () => {
-    console.log('Server listening on port 3000');
-})
+let port = process.env.PORT;
+if (port == null || port == "") {
+    port = 8000;
+}
+app.listen(port);
