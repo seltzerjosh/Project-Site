@@ -5,7 +5,7 @@
       "project_name": "Interactive Form",
       "description": "An interactive form for registering conference attendees.",
       "technologies": ["JavaScript", "HTML", "CSS"],
-      "live_link": "https://www.seltzerjosh.io/intearctive-form/",
+      "live_link": "https://seltzerjosh.github.io/intearctive-form/",
       "github_link": "https://github.com/seltzerjosh/intearctive-form",
       "image_urls": [
         "img/interactiveForm-main.png",
