@@ -83,7 +83,7 @@
     {
       "id": 6,
       "project_name": "Flickr Search",
-      "description": "aA React based website utilizing the flickr API to search for iamges",
+      "description": "A React based website utilizing the flickr API to search for iamges",
       "technologies": [
         "JavaScript",
         "HTML",
